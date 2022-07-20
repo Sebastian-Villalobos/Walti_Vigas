@@ -267,6 +267,11 @@ section {
   text-align: center;
   margin: auto;
 }
+@media (max-width: 450px) {
+  .services a {
+    width: 30%;
+  }
+}
 .services .box-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(32rem, 1fr));

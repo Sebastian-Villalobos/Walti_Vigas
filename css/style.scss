@@ -288,6 +288,10 @@ section{
       align-items: center;
       text-align: center;
       margin: auto;
+
+      @media (max-width:450px){
+         width: 30%;
+      }
    }
 
    .box-container{
@@ -486,20 +490,6 @@ section{
       }
    }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // media queries 
 

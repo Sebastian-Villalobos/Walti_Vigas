@@ -179,7 +179,7 @@ section{
          top:0; left:0;
          height: 100%;
          width: 100%;
-         background: linear-gradient(90deg, var(--light-bg), transparent);
+         background: linear-gradient(90deg, var(--light-bg), 30%, transparent);
       }
 
       .content{
@@ -189,13 +189,13 @@ section{
          h3{
             @include titleText(5rem);
             text-transform: uppercase;
-            color: var(--black)
+            font-weight: 800;
          }
 
          p{
-            @include graphText(2rem);
-            font-weight: 600;
-            color: #222021;
+            @include graphText(2.5rem);
+            font-weight: 800;
+            color: var(--black);
             padding:1rem 0;
          }
       }
@@ -237,7 +237,7 @@ section{
       gap:3rem;
 
       .centerImage{
-         flex:1 1 41rem;
+         flex: 1 1 20rem;
 
          img{
             width: 100%;
@@ -245,7 +245,7 @@ section{
       }
 
       .content{
-         flex:1 1 41rem;
+         flex:1 1 40rem;
 
          h3{
             @include titleText(3.5rem);
@@ -266,7 +266,7 @@ section{
       .box{
          text-align: center;
          background: var(--light-bg);
-         padding:3rem 2rem;
+         padding:2rem 1rem;
 
          h3{
             @include titleText(4rem);
@@ -560,9 +560,10 @@ section{
 
       .content{
          text-align: center;
-
+         
          h3{
-            font-size: 3rem;
+            font-size: 3.5rem;
+            background-image: radial-gradient(var(--light-bg));
          }
       }
    }

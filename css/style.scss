@@ -225,6 +225,7 @@ section{
             @include titleText(5rem);
             text-transform: uppercase;
             font-weight: 800;
+            text-shadow: 2px 2px 5px #666;
          }
 
          p{
@@ -232,6 +233,7 @@ section{
             font-weight: 800;
             color: var(--black);
             padding:1rem 0;
+            text-shadow: 2px 2px 5px #666;
          }
       }
    }
